@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WC2026 Predict — World Cup Prediction Market</title>
+    <meta name="description" content="Predict the 2026 FIFA World Cup winner. 48 teams, real-time odds, prediction markets." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (location.protocol === 'file:') {
+        document.body.innerHTML =
+          '<div style="padding:2rem;font:16px system-ui,sans-serif;max-width:36rem;line-height:1.55;color:#0f172a;background:#f8fafc;min-height:100vh">' +
+          '<p style="margin:0 0 1rem;font-weight:700">This app is not meant to be opened as a file.</p>' +
+          '<p style="margin:0 0 1rem">From this folder in a terminal run:</p>' +
+          '<ol style="margin:0 0 1rem;padding-left:1.25rem"><li><code style="background:#e2e8f0;padding:2px 8px;border-radius:4px">npm install</code></li>' +
+          '<li style="margin-top:.5rem"><code style="background:#e2e8f0;padding:2px 8px;border-radius:4px">npm run dev</code> or <code style="background:#e2e8f0;padding:2px 8px;border-radius:4px">npm start</code></li></ol>' +
+          '<p style="margin:0">Then open the <strong>http://localhost</strong> address shown (port may be 5174, 5175, … if 5173 is busy).</p></div>';
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
